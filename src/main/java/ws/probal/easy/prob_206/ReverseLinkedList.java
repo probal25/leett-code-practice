@@ -1,7 +1,5 @@
 package ws.probal.easy.prob_206;
 
-import ws.probal.easy.prob_876.MiddleOfTheLinkedList;
-
 public class ReverseLinkedList {
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
@@ -18,11 +16,6 @@ public class ReverseLinkedList {
         reverseList(node1);
     }
 
-    // 1-2-3-4-5
-    // 1-null
-    // 2 - 1
-    // 3
-    // 5-4-3-2-1
     public static ListNode reverseList(ListNode head) {
         ListNode current = head;
         ListNode next;
